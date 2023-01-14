@@ -1,0 +1,21 @@
+body{
+    position: 0px;
+    padding: 0px;
+    background-color: black;
+}
+.contenu{
+    position: relative;
+    max-width: 700px;
+    min-height: 1000px;
+    background-color: rgb(233, 241, 236);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.left{
+    position: relative;
+    background-color: aquamarine;
+    width: 300px;
+}
